@@ -1,0 +1,57 @@
+body {
+  background-color: grey;
+}
+h1 {
+  color: black;
+  font-family: Helvetica;
+}
+.menu {
+  color: black;
+}
+.caja {
+  color: green;
+}
+.menu ul li {
+  color: brown;
+  font-style: bold;
+}
+div .caja_1 {
+  color: greenyellow;
+}
+div .caja_2 {
+  color: blue;
+}
+.estilizar_cajas {
+  border: 2px solid black;
+  background: grey;
+  padding: 40px;
+  text-align: center;
+  width: 25%;
+  height: 10px;
+}
+.caja_1 {
+  border: 2px solid black;
+  background: grey;
+  padding: 40px;
+  text-align: center;
+  width: 25%;
+  height: 10px;
+}
+.caja_2 {
+  border: 2px solid black;
+  background: grey;
+  padding: 40px;
+  text-align: center;
+  width: 25%;
+  height: 10px;
+}
+.estilizar_texto {
+  color: red;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium';
+}
+.texto {
+  color: red;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium';
+}

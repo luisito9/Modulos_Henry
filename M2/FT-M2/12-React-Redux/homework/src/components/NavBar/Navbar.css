@@ -1,0 +1,44 @@
+.navbar {
+    height: 56px;
+    width: 100%;
+    top: 20;
+    right: 100px;
+    background-color: #303236;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.navbar nav {
+    height: 100%;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    height: 100%;
+}
+
+.list-item {
+    display: flex;
+    height: 100%;
+    width: auto;
+    align-items: left;
+}
+
+.list-item a {
+    color: white;
+    height: 100%;
+    padding: 16px 15px;
+    border-bottom: 2px solid transparent;
+}
+
+.list-item a:hover {
+    background-color: #808080;
+    color: white;
+}

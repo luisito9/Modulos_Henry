@@ -1,0 +1,71 @@
+
+//Funcionalidades de Less.....
+
+// Variables
+@color_fondo: grey;
+@color_letra: black;
+@fuente: Helvetica;
+@color_caja: green;
+
+body{
+    background-color: @color_fondo;
+}
+h1{
+    color: @color_letra;
+    font-family: @fuente;
+}
+.menu{
+    color: @color_letra;
+}
+.caja{
+    color: @color_caja;
+}
+
+// Anidaciones
+.menu{
+    ul{
+        li{
+            color: brown;
+            font-style: bold;
+        }
+    }
+}
+
+//Otra anidacion ********
+
+div{
+    .caja_1{
+        color: greenyellow;
+    }
+    .caja_2{
+        color: blue;
+    }
+}
+
+// Mixin function
+
+.estilizar_cajas{
+    border: 2px solid black;
+    background: grey;
+    padding: 40px;
+    text-align: center;
+    width: 25%;
+    height: 10px;
+}
+.caja_1 {
+    .estilizar_cajas();
+}
+.caja_2{
+    .estilizar_cajas();
+}
+
+.estilizar_texto{
+    color : red;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium';
+   
+}
+
+.texto{
+    .estilizar_texto()
+}
